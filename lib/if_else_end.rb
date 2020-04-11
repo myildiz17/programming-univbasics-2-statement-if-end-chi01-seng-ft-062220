@@ -1,9 +1,9 @@
 year = Time.now
-puts "Number of secondssonce 1-1-1970 is:"
+puts "Number of seconds since 1-1-1970 until the current second we run the program is:"
 number_of_seconds = year.to_i
 puts number_of_seconds
 if number_of_seconds % 2 == 0 
-  puts "It is even"
+  puts "Since it is divisible by 2, It is even"
 else
-  puts "odd"
+  puts "Since it is not divisible by 2, it is odd"
 end
