@@ -1,3 +1,2 @@
-year = Time.now.year
-puts "cok yaslandik" if year == 2020
+year = Time.now
 puts year
